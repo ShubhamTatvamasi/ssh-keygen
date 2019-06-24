@@ -1,6 +1,6 @@
 # ssh-keygen
 
-Elliptic Curve Digital Signature Algorithm 521 bits
+Ed25519: high-speed high-security signatures
 ```
 ssh-keygen -t ed25519
 ```
