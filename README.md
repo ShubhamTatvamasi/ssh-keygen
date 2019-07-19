@@ -11,5 +11,5 @@ cat ~/.ssh/id_ed25519.pub
 
 Setup GCP
 ```
-ssh-keygen -t ed25519 -f ~/.ssh/google_compute_engine -C "shubham.tatvamasi@bitgrit.net"
+ssh-keygen -t ed25519 -C "shubham.tatvamasi@bitgrit.net" -f ~/.ssh/google_compute_engine
 ```
