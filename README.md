@@ -12,6 +12,11 @@ Add your public key to the following file on a server
 ```bash
 vim ~/.ssh/authorized_keys
 ```
+```bash
+cat >> ~/.ssh/authorized_keys <<EOF
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP7Dd03PbcMXQTj+yDl/12a2XPfRFFV1YLEO8n8F5r69 shubhamtatvamasi@gmail.com
+EOF
+```
 ---
 
 Setup GCP
