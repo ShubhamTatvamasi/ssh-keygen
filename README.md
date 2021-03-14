@@ -19,6 +19,13 @@ EOF
 ```
 ---
 
+Generate a key for AWS instances:
+```bash
+mkdir -p /home/shubham/.ssh/aws/
+ssh-keygen -N '' -f /home/shubham/.ssh/aws/id_rsa
+```
+---
+
 Setup GCP
 ```bash
 ssh-keygen -t ed25519 -C "shubham.tatvamasi@bitgrit.net" -f ~/.ssh/google_compute_engine
