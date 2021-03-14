@@ -19,10 +19,17 @@ EOF
 ```
 ---
 
+### AWS
+
 Generate a key for AWS instances:
 ```bash
 mkdir -p ~/.ssh/aws/
 ssh-keygen -N '' -f ~/.ssh/aws/id_rsa
+```
+
+ssh to instance using it's public IP:
+```bash
+ssh -i ~/.ssh/aws/id_rsa ec2-user@8.8.8.8
 ```
 ---
 
