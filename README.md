@@ -21,8 +21,8 @@ EOF
 
 Generate a key for AWS instances:
 ```bash
-mkdir -p /home/shubham/.ssh/aws/
-ssh-keygen -N '' -f /home/shubham/.ssh/aws/id_rsa
+mkdir -p ~/.ssh/aws/
+ssh-keygen -N '' -f ~/.ssh/aws/id_rsa
 ```
 ---
 
