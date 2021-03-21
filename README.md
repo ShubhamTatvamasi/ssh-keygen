@@ -33,6 +33,14 @@ ssh -i ~/.ssh/aws/id_rsa ec2-user@8.8.8.8
 ```
 ---
 
+### Ansible
+
+generate key for ansible:
+```bash
+mkdir -p ~/.ssh/ansible/
+ssh-keygen -t ed25519 -N '' -C "ansible" -f ~/.ssh/ansible/id_ed25519
+```
+
 Setup GCP
 ```bash
 ssh-keygen -t ed25519 -C "shubham.tatvamasi@bitgrit.net" -f ~/.ssh/google_compute_engine
