@@ -40,6 +40,9 @@ generate key for ansible:
 mkdir -p ~/.ssh/ansible/
 ssh-keygen -t ed25519 -N '' -C "ansible" -f ~/.ssh/ansible/id_ed25519
 ```
+---
+
+### GCP
 
 Setup GCP
 ```bash
