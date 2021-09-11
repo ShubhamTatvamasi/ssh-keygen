@@ -4,8 +4,15 @@ Ed25519: high-speed high-security signatures
 ```bash
 ssh-keygen -t ed25519 -C "shubhamtatvamasi@gmail.com"
 ```
+
+public key location:
 ```bash
 cat ~/.ssh/id_ed25519.pub
+```
+
+copy your public key on server:
+```bash
+ssh-copy-id ubuntu@192.168.0.87
 ```
 
 Add your public key to the following file on a server 
