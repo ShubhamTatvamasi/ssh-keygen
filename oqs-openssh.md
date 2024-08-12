@@ -17,7 +17,7 @@ vim sshd_config
 
 Start sshd server:
 ```bash
-/home/ubuntu/openssh/sshd -D \
+/home/ubuntu/openssh/sshd \
   -f ./sshd_config \
   -o KexAlgorithms=kyber-1024-sha512 \
   -o HostKeyAlgorithms=ssh-dilithium5 \
