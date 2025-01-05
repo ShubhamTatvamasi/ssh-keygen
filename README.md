@@ -26,6 +26,15 @@ EOF
 ```
 ---
 
+
+Convert Keys to base64:
+```bash
+cat id_ed25519 | base64 -w 0 ; echo
+cat id_ed25519.pub | base64 -w 0 ; echo
+```
+
+---
+
 ### AWS
 
 Generate a key for AWS instances:
