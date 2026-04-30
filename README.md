@@ -2,7 +2,7 @@
 
 Ed25519: high-speed high-security signatures
 ```bash
-ssh-keygen -t ed25519 -C "shubhamtatvamasi@gmail.com"
+ssh-keygen -t ed25519 -a 100 -C "shubhamtatvamasi@gmail.com"
 ```
 
 public key location:
