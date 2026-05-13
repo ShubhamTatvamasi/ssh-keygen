@@ -64,3 +64,14 @@ Setup GCP
 ```bash
 ssh-keygen -t ed25519 -C "shubham.tatvamasi@bitgrit.net" -f ~/.ssh/google_compute_engine
 ```
+
+---
+
+Generate Public Key from Private Key:
+```bash
+ssh-keygen -y -f id_rsa > id_rsa.pub
+```
+
+
+
+
